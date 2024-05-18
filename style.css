@@ -1,0 +1,59 @@
+   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+background-image: url(bokeh-background-lights-blurry.jpg);
+background-position: center;
+background-size: cover;
+font-family:poppins;
+}
+.card{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: poppins, Helvetica, sans-serif;
+}
+.container{
+background: #ffffff;
+background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+
+
+}
+.title{
+color: #8999c6;
+font-size: 18px;
+}
+button{
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #426ce0;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+a{
+padding-right: 5px;
+text-decoration: none;
+font-size: 16px;
+font-family:poppins;
+color: rgb(177, 64, 154);
+}
+button:hover, a:hover{
+opacity: 0.7;
+}
+.card h2{
+   color: #ffffff;
+}
+.card p{
+   color: #ffffff;
+}
+.top h2{
+   color: #224cc0;
+}
